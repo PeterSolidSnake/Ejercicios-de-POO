@@ -21,8 +21,8 @@ public class Triangulo extends Figuras
             }
         
         //metodo getter
-            public int getBase(){
-        return this.base;
+        public int getBase(){
+            return this.base;
         }
      public int getAltura(){
         return this.altura;
@@ -37,6 +37,7 @@ public class Triangulo extends Figuras
         }
         
         public double calcularArea(){
-         return (double) (base*altura)/2;
+
+        return (double) (base*altura)/2;
      }
 }
